@@ -7,6 +7,14 @@ def distinct(list):
 
     return new_list
 
-numbers = [1, 2, 3, 3, 3, 3, 4, 5]
+n = int(input("Enter the number of elements: "))
 
-print(distinct(numbers))
+numbers = []
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    numbers.append(num)
+
+result = distinct(numbers)
+
+print("Distinct elements:", result)
