@@ -17,4 +17,4 @@ for value in dict.values():
     else:
         frequency[value] = 1
 
-print(frequency)
+print(frequency) 
