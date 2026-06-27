@@ -8,4 +8,4 @@ def palindrome(text):
 
 word = input("Enter a string: ")
 
-palindrome(word)
+palindrome(word) 
