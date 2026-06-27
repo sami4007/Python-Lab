@@ -5,7 +5,7 @@ result = d1.copy()
 
 for value in d2:
     if value in result:
-        result[value] = result[value] + d2[value]
+        result[value] += d2[value]
     else:
         result[value] = d2[value]
 
