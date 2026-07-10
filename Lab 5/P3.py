@@ -1,8 +1,8 @@
-n = int(input("Enter the number of elements: "))
+index = int(input("Enter the number of elements: "))
 
 numbers = []
 
-for i in range(n):
+for i in range(index):
     num = int(input("Enter element: "))
     numbers.append(num)
 
