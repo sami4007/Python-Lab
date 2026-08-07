@@ -28,10 +28,8 @@ class BankAccount:
         return self.balance
 
 
-# Create an account object
 account = BankAccount("10485", 2000, "2026-08-02", "Sami")
 
-# Test the methods
 account.check_balance()
 account.deposit(8000)
 account.withdraw(4000)
